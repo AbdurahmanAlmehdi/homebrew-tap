@@ -7,7 +7,7 @@ tool for Flutter apps.
 brew install --cask abdurahmanalmehdi/tap/xpath
 ```
 
-Apple silicon, macOS 13 or later. The DMG is signed with Developer ID and notarized.
+Apple silicon, macOS 12 or later (the background engine needs macOS 13). The DMG is signed with Developer ID and notarized.
 
 `brew uninstall --cask xpath` stops the engine and removes the app; `brew uninstall --zap --cask
 xpath` also deletes its data. Keychain items stay: remove them with **Settings ▸ Remove XPath** in
