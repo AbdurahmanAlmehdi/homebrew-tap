@@ -1,10 +1,10 @@
 # Homebrew cask for the AbdurahmanAlmehdi/homebrew-tap tap:
 #   brew install --cask abdurahmanalmehdi/tap/jidr
-# release.yml fills in 0.1.0 and 13b49341c3ff2c860cfdfbd4bfcef4324e6524134f99d4f1fe119dc4a58fbac6 (the DMG's line in
+# release.yml fills in 0.2.0 and 55a59a7e832ddbcbf6aef6875950ef7df3975a751a6040d90c5abdf5c3f1e924 (the DMG's line in
 # SHA256SUMS.txt) and pushes the result to Casks/jidr.rb in the tap.
 cask "jidr" do
-  version "0.1.0"
-  sha256 "13b49341c3ff2c860cfdfbd4bfcef4324e6524134f99d4f1fe119dc4a58fbac6"
+  version "0.2.0"
+  sha256 "55a59a7e832ddbcbf6aef6875950ef7df3975a751a6040d90c5abdf5c3f1e924"
 
   url "https://github.com/AbdurahmanAlmehdi/jidr/releases/download/v#{version}/Jidr-#{version}-arm64.dmg"
   name "Jidr"
