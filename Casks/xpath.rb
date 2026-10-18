@@ -17,8 +17,11 @@ cask "xpath" do
 
   app "XPath.app"
 
-  uninstall launchctl: "ly.abdurahman.xpath.xpd",
-            quit:      "ly.abdurahman.xpath"
+  # Only quit the app. The engine is a per-user login item the app registers
+  # itself (SMAppService); a `launchctl` stanza would unload it on every upgrade
+  # and make Homebrew ask for a password for the system domain. Settings >
+  # Remove XPath in the app unregisters it.
+  uninstall quit: "ly.abdurahman.xpath"
 
   zap trash: [
     "~/.config/xpath",
