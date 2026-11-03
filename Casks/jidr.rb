@@ -3,8 +3,8 @@
 # release.yml fills in the version and the DMG's checksum (its line in
 # SHA256SUMS.txt) and pushes the result to Casks/jidr.rb in the tap.
 cask "jidr" do
-  version "0.3.0"
-  sha256 "4a2ceab6b617c1e8eaeff3d5cf9d92215d04dedb8112aa0d3551f67035363d81"
+  version "0.3.1"
+  sha256 "67ec0516b65801743192a29e74e36a6508b72ef4707135691604e227b91fe402"
 
   url "https://github.com/AbdurahmanAlmehdi/jidr/releases/download/v#{version}/Jidr-#{version}-arm64.dmg"
   name "Jidr"
