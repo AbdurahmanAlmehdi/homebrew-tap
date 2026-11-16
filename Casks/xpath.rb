@@ -1,6 +1,6 @@
 cask "xpath" do
-  version "1.11.0"
-  sha256 "26189fb2d6f8e670d9e707061a56854f267f06aec1530d73e82adaa053ccf66c"
+  version "1.11.1"
+  sha256 "faea695bacef8a1123c321abb99950ef591884a5a3891c7661a2a2b49db21ece"
 
   url "https://github.com/AbdurahmanAlmehdi/x-path/releases/download/v#{version}/XPath-#{version}.dmg"
   name "XPath"
